@@ -38,3 +38,5 @@ You can edit ```generate-gitignore.sh``` and modify ```tempDir``` to point somew
 # Acknowledgements
 
 This generator uses https://github.com/github/gitignore as input to generate a merged ```.gitignore``` file.
+
+After I created this, I found https://www.gitignore.io which does the same thing from a web page.
