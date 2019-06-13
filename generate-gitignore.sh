@@ -31,7 +31,7 @@ HelpKeywords() {
 FetchGitIgnore() {
     cd ${tempDir}
     if [ ! -d gitignore ] ;then
-        git clone https://github.com/github/gitignore.git
+        git clone https://github.com/github/gitignore.git > /dev/null 2>&1
     fi
     cd gitignore
 }
